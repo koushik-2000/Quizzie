@@ -1,0 +1,38 @@
+.notfound_container {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound_container img {
+  width: min(80%, 700px);
+}
+
+.notfound_container p {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #6ea9ce;
+}
+
+.notfound_container .reroute_btn {
+  background: #fdc840;
+  width: fit-content;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.notfound_container .reroute_btn:hover {
+  background: #f7b91d;
+}
+
+.notfound_container .reroute_btn:active {
+  scale: 0.95;
+}
